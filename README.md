@@ -246,7 +246,7 @@ test_plot();
 
 
     
-![png](output_8_0.png)
+![png](images/output_8_0.png)
     
 
 
@@ -265,7 +265,7 @@ with sns.plotting_context(context=context,font_scale=fontscale):
 
 
     
-![png](output_10_0.png)
+![png](images/output_10_0.png)
     
 
 
@@ -299,19 +299,19 @@ for (context,font_scale) in test_contexts:
 
 
     
-![png](output_13_0.png)
+![png](images/output_13_0.png)
     
 
 
 
     
-![png](output_13_1.png)
+![png](images/output_13_1.png)
     
 
 
 
     
-![png](output_13_2.png)
+![png](images/output_13_2.png)
     
 
 
@@ -369,157 +369,157 @@ for style in plt.style.available:
 
 
     
-![png](output_17_0.png)
+![png](images/output_17_0.png)
     
 
 
 
     
-![png](output_17_1.png)
+![png](images/output_17_1.png)
     
 
 
 
     
-![png](output_17_2.png)
+![png](images/output_17_2.png)
     
 
 
 
     
-![png](output_17_3.png)
+![png](images/output_17_3.png)
     
 
 
 
     
-![png](output_17_4.png)
+![png](images/output_17_4.png)
     
 
 
 
     
-![png](output_17_5.png)
+![png](images/output_17_5.png)
     
 
 
 
     
-![png](output_17_6.png)
+![png](images/output_17_6.png)
     
 
 
 
     
-![png](output_17_7.png)
+![png](images/output_17_7.png)
     
 
 
 
     
-![png](output_17_8.png)
+![png](images/output_17_8.png)
     
 
 
 
     
-![png](output_17_9.png)
+![png](images/output_17_9.png)
     
 
 
 
     
-![png](output_17_10.png)
+![png](images/output_17_10.png)
     
 
 
 
     
-![png](output_17_11.png)
+![png](images/output_17_11.png)
     
 
 
 
     
-![png](output_17_12.png)
+![png](images/output_17_12.png)
     
 
 
 
     
-![png](output_17_13.png)
+![png](images/output_17_13.png)
     
 
 
 
     
-![png](output_17_14.png)
+![png](images/output_17_14.png)
     
 
 
 
     
-![png](output_17_15.png)
+![png](images/output_17_15.png)
     
 
 
 
     
-![png](output_17_16.png)
+![png](images/output_17_16.png)
     
 
 
 
     
-![png](output_17_17.png)
+![png](images/output_17_17.png)
     
 
 
 
     
-![png](output_17_18.png)
+![png](images/output_17_18.png)
     
 
 
 
     
-![png](output_17_19.png)
+![png](images/output_17_19.png)
     
 
 
 
     
-![png](output_17_20.png)
+![png](images/output_17_20.png)
     
 
 
 
     
-![png](output_17_21.png)
+![png](images/output_17_21.png)
     
 
 
 
     
-![png](output_17_22.png)
+![png](images/output_17_22.png)
     
 
 
 
     
-![png](output_17_23.png)
+![png](images/output_17_23.png)
     
 
 
 
     
-![png](output_17_24.png)
+![png](images/output_17_24.png)
     
 
 
 
     
-![png](output_17_25.png)
+![png](images/output_17_25.png)
     
 
 
@@ -555,25 +555,25 @@ for style in test_combined:
 
 
     
-![png](output_20_0.png)
+![png](images/output_20_0.png)
     
 
 
 
     
-![png](output_20_1.png)
+![png](images/output_20_1.png)
     
 
 
 
     
-![png](output_20_2.png)
+![png](images/output_20_2.png)
     
 
 
 
     
-![png](output_20_3.png)
+![png](images/output_20_3.png)
     
 
 
@@ -596,7 +596,7 @@ with plt.style.context(fav_style):
 
 
     
-![png](output_24_0.png)
+![png](images/output_24_0.png)
     
 
 
@@ -620,31 +620,31 @@ with plt.style.context(fav_style):
 
 
     
-![png](output_26_0.png)
+![png](images/output_26_0.png)
     
 
 
 
     
-![png](output_26_1.png)
+![png](images/output_26_1.png)
     
 
 
 
     
-![png](output_26_2.png)
+![png](images/output_26_2.png)
     
 
 
 
     
-![png](output_26_3.png)
+![png](images/output_26_3.png)
     
 
 
 
     
-![png](output_26_4.png)
+![png](images/output_26_4.png)
     
 
 
@@ -696,7 +696,7 @@ test_plot()
 
 
     
-![png](output_32_1.png)
+![png](images/output_32_1.png)
     
 
 
@@ -713,7 +713,7 @@ fig, ax = test_plot(x1='LongFjob',rotate=True)
 
 
     
-![png](output_36_0.png)
+![png](images/output_36_0.png)
     
 
 
@@ -765,7 +765,7 @@ plt.imshow(plt.imread('test_plot_final.png'))
 
 
     
-![png](output_44_1.png)
+![png](images/output_44_1.png)
     
 
 
@@ -853,14 +853,14 @@ fig
 
 
     
-![png](output_52_0.png)
+![png](images/output_52_0.png)
     
 
 
 
 
     
-![png](output_52_1.png)
+![png](images/output_52_1.png)
     
 
 
@@ -901,7 +901,7 @@ plt.imshow(plt.imread('test_plot_final.png'))
 
 
     
-![png](output_58_1.png)
+![png](images/output_58_1.png)
     
 
 

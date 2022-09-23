@@ -10,6 +10,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+import os
+os.makedirs('images/', exist_ok=True)
 ```
 
 
@@ -246,7 +249,7 @@ test_plot();
 
 
     
-![png](images/output_8_0.png)
+![png](images/readme/output_8_0.png)
     
 
 
@@ -265,7 +268,7 @@ with sns.plotting_context(context=context,font_scale=fontscale):
 
 
     
-![png](images/output_10_0.png)
+![png](images/readme/output_10_0.png)
     
 
 
@@ -299,19 +302,19 @@ for (context,font_scale) in test_contexts:
 
 
     
-![png](images/output_13_0.png)
+![png](images/readme/output_13_0.png)
     
 
 
 
     
-![png](images/output_13_1.png)
+![png](images/readme/output_13_1.png)
     
 
 
 
     
-![png](images/output_13_2.png)
+![png](images/readme/output_13_2.png)
     
 
 
@@ -369,157 +372,157 @@ for style in plt.style.available:
 
 
     
-![png](images/output_17_0.png)
+![png](images/readme/output_17_0.png)
     
 
 
 
     
-![png](images/output_17_1.png)
+![png](images/readme/output_17_1.png)
     
 
 
 
     
-![png](images/output_17_2.png)
+![png](images/readme/output_17_2.png)
     
 
 
 
     
-![png](images/output_17_3.png)
+![png](images/readme/output_17_3.png)
     
 
 
 
     
-![png](images/output_17_4.png)
+![png](images/readme/output_17_4.png)
     
 
 
 
     
-![png](images/output_17_5.png)
+![png](images/readme/output_17_5.png)
     
 
 
 
     
-![png](images/output_17_6.png)
+![png](images/readme/output_17_6.png)
     
 
 
 
     
-![png](images/output_17_7.png)
+![png](images/readme/output_17_7.png)
     
 
 
 
     
-![png](images/output_17_8.png)
+![png](images/readme/output_17_8.png)
     
 
 
 
     
-![png](images/output_17_9.png)
+![png](images/readme/output_17_9.png)
     
 
 
 
     
-![png](images/output_17_10.png)
+![png](images/readme/output_17_10.png)
     
 
 
 
     
-![png](images/output_17_11.png)
+![png](images/readme/output_17_11.png)
     
 
 
 
     
-![png](images/output_17_12.png)
+![png](images/readme/output_17_12.png)
     
 
 
 
     
-![png](images/output_17_13.png)
+![png](images/readme/output_17_13.png)
     
 
 
 
     
-![png](images/output_17_14.png)
+![png](images/readme/output_17_14.png)
     
 
 
 
     
-![png](images/output_17_15.png)
+![png](images/readme/output_17_15.png)
     
 
 
 
     
-![png](images/output_17_16.png)
+![png](images/readme/output_17_16.png)
     
 
 
 
     
-![png](images/output_17_17.png)
+![png](images/readme/output_17_17.png)
     
 
 
 
     
-![png](images/output_17_18.png)
+![png](images/readme/output_17_18.png)
     
 
 
 
     
-![png](images/output_17_19.png)
+![png](images/readme/output_17_19.png)
     
 
 
 
     
-![png](images/output_17_20.png)
+![png](images/readme/output_17_20.png)
     
 
 
 
     
-![png](images/output_17_21.png)
+![png](images/readme/output_17_21.png)
     
 
 
 
     
-![png](images/output_17_22.png)
+![png](images/readme/output_17_22.png)
     
 
 
 
     
-![png](images/output_17_23.png)
+![png](images/readme/output_17_23.png)
     
 
 
 
     
-![png](images/output_17_24.png)
+![png](images/readme/output_17_24.png)
     
 
 
 
     
-![png](images/output_17_25.png)
+![png](images/readme/output_17_25.png)
     
 
 
@@ -555,25 +558,25 @@ for style in test_combined:
 
 
     
-![png](images/output_20_0.png)
+![png](images/readme/output_20_0.png)
     
 
 
 
     
-![png](images/output_20_1.png)
+![png](images/readme/output_20_1.png)
     
 
 
 
     
-![png](images/output_20_2.png)
+![png](images/readme/output_20_2.png)
     
 
 
 
     
-![png](images/output_20_3.png)
+![png](images/readme/output_20_3.png)
     
 
 
@@ -596,7 +599,7 @@ with plt.style.context(fav_style):
 
 
     
-![png](images/output_24_0.png)
+![png](images/readme/output_24_0.png)
     
 
 
@@ -620,31 +623,31 @@ with plt.style.context(fav_style):
 
 
     
-![png](images/output_26_0.png)
+![png](images/readme/output_26_0.png)
     
 
 
 
     
-![png](images/output_26_1.png)
+![png](images/readme/output_26_1.png)
     
 
 
 
     
-![png](images/output_26_2.png)
+![png](images/readme/output_26_2.png)
     
 
 
 
     
-![png](images/output_26_3.png)
+![png](images/readme/output_26_3.png)
     
 
 
 
     
-![png](images/output_26_4.png)
+![png](images/readme/output_26_4.png)
     
 
 
@@ -696,132 +699,266 @@ test_plot()
 
 
     
-![png](images/output_32_1.png)
+![png](images/readme/output_32_1.png)
     
 
 
 # BOOKMARK: HERE TO END NEEDS UPDATING
 
-## APPENDIX
+## Selecting Parameters for `fig.savefig`
 
-### Testing fig.savefig Image Settings
+There are several parameters in plt.rcParams that are used to determine the quality and aesthetics of saved figures. 
+
+- Three of the most important settings to check are:
+    - `savefig.dpi`: the figure quality - dpi (displayed-pixels per inch)
+        - default value = "figure" (whatever the figure was using).
+        - preferred value= 300
+            - by setting this to 300, we are producing high resolution images that could be used in professional printed publications.
+            
+    - `savefig.bbox`:  how much extra spacing is around the figure's Axis (the bounding box).
+        - default value = None. <br>- Uses the default bounding box of the figure. 
+        - preferred value="tight".<br> - It will determine a new bounding box that will be big enough to include all text labels in the exported image. 
+        
+    - `savefig.transparent`: if the figure will have a transparent background. 
+        - default value = `False.
+        - preferred value = `False`<br> but this parameter doesn't always work to prevent a transparent backround.
+        - There are still situations where if the image is displayed on a page with a dark background (like when using GitHub's dark theme), then the text labels for the plot may be obscured.
+    - `savefig.facecolor`: the facecolor of the figure (the background of the entire figure - NOT the same as the color of the plotting area inside of the axes)
+        - default value = 'auto'
+        - preferred value = depends on your matplotlib style. You may want: 'white', 'black', or 'gray' depending on what looks best with your selected visualization settings.
+
 
 
 ```python
+# whats the default value?
+print(plt.rcParams['savefig.dpi'])
+```
+
+    figure
+
+
+
+```python
+# whats the default value?
+print(plt.rcParams['savefig.bbox'])
+```
+
+    None
+
+
+
+```python
+# whats the default value?
+print(plt.rcParams['savefig.transparent'])
+```
+
+    False
+
+
+
+```python
+# whats the default value?
+print(plt.rcParams['savefig.facecolor'])
+```
+
+    auto
+
+
+## Testing fig.savefig with Default Image Settings
+
+
+```python
+# creating a fig using the LongFjob feature (since it has long labels)
 fig, ax = test_plot(x1='LongFjob',rotate=True)
 ```
 
 
     
-![png](images/output_36_0.png)
+![png](images/readme/output_41_0.png)
     
 
 
 
 ```python
-fig.savefig('test_plot_trans.png')#,transparent=True)
+# saving the figure wiht the default params
+fig.savefig('images/test_plot_defaults.png')
 ```
 
-- Testing Image: Transparent=True
+- Now that we have saved our image, the cell below is using HTML and CSS to create an area with a black background and then it inserts our image inside of the black area. 
+- We need to confirm that we can see the text labels in our visualization.
+
+### Testing Using Saved Image Against a Dark Background
+
+<div style='background-color:black'>
+    <p style='color:white'> Testing Inserting Image in a Dark Background</p>
+
+ <img src="images/test_plot_defaults.png">
+    <p style='color:white'> Testing Inserting Image in a Dark Background </p></div>
 
 
-<div style='background-color:black'> <img src="test_plot_trans.png">Testing</div>
+- Notice in the image exporting using the default values:
+    - [ ] The text labels are cut off!
+    - [x] The background is not transparent.
+    - [x] The image doesn't look very blurry.
 
+### Updating savefig params
 
 
 ```python
-fig.savefig('test_plot_not_t.png',transparent=False)
-```
-
-- Testing Image: Transparent=False
-<div style='background-color:black'> <img src="test_plot_not_t.png">Testing</div>
+plt.rcParams['savefig.dpi'] = 300
 
 
-### Using Savefig rcParams
-
-
-```python
-plt.rcParams['savefig.transparent'] = False
 plt.rcParams['savefig.bbox'] = 'tight'
+
+
+plt.rcParams['savefig.transparent'] = False
+
+
+plt.rcParams['savefig.facecolor'] = 'white'
 ```
 
 
 ```python
-##final test
-fig.savefig('test_plot_final.png')
+# saving the figure wiht the default params
+fig, ax = test_plot(x1='LongFjob',rotate=True)
+fig.savefig('images/test_plot-new_params.png')
 ```
+
+
+    
+![png](images/readme/output_48_0.png)
+    
+
 
 
 ```python
-plt.imshow(plt.imread('test_plot_final.png'))
+
+```
+
+### Testing Updated Params
+
+#### Testing Using Saved Image Against a Dark Background
+
+<div style='background-color:black'>
+    <p style='color:white'> Testing Inserting Image in a Dark Background </p>
+
+ <img src="images/test_plot-new_params.png">
+    <p style='color:white'> Testing Inserting Image in a Dark Background </p>
+</div>
+
+
+
+```python
+plt.imshow(plt.imread('images/test_plot-new_params.png'))
 ```
 
 
 
 
-    <matplotlib.image.AxesImage at 0x130b6a970>
+    <matplotlib.image.AxesImage at 0x14f7875e0>
 
 
 
 
     
-![png](images/output_44_1.png)
+![png](images/readme/output_52_1.png)
     
-
-
-- Testing Final Image using rcParams
-<div style='background-color:black'> <img src="test_plot_final.png">Testing</div>
 
 
 ## Export Final Choices
 
-- Save the final choices as final use commands in the lp_styles.py file.
+- Paste your final plt.rcParams for savefig in the f-string below. 
+
+- Run the cell to see the final code for setting the visualization aesthetics. 
+
+- If everything looks correct, run the following cell to save these settings as a new py file called `my_style.py`.
+
+
 
 
 ```python
-final_favs = """import matplotlib.pyplot as plt
+final_favs = f"""
+import matplotlib.pyplot as plt
 import seaborn as sns
-fav_style = ('ggplot','tableau-colorblind10')
-fav_context  ={'context':'notebook', 'font_scale':1.2}
+
+fav_style = {fav_style}
+fav_context  ={fav_context}
 plt.style.use(fav_style)
 sns.set_context(**fav_context)
+
+plt.rcParams['savefig.dpi'] = 300
+plt.rcParams['savefig.bbox'] = 'tight'
 plt.rcParams['savefig.transparent'] = False
-plt.rcParams['savefig.bbox'] = 'tight'"""
+plt.rcParams['savefig.facecolor'] = 'white'
+"""
+
+print(final_favs)
 ```
+
+    
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    
+    fav_style = ('ggplot', 'tableau-colorblind10')
+    fav_context  ={'context': 'notebook', 'font_scale': 1.2}
+    plt.style.use(fav_style)
+    sns.set_context(**fav_context)
+    
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['savefig.bbox'] = 'tight'
+    plt.rcParams['savefig.transparent'] = False
+    plt.rcParams['savefig.facecolor'] = 'white'
+    
+
 
 
 ```python
-
-with open('lp_styles.py', 'w+') as f:
+## Saving the paramets to my_style.py
+with open('my_style.py', 'w+') as f:
     f.write(final_favs)
     
-with open('lp_styles.py', 'r') as f:
+with open('my_style.py', 'r') as f:
     print(f.read())
 
-    
 
 ```
 
+    
     import matplotlib.pyplot as plt
     import seaborn as sns
-    fav_style = ('ggplot','tableau-colorblind10')
-    fav_context  ={'context':'notebook', 'font_scale':1.2}
+    
+    fav_style = ('ggplot', 'tableau-colorblind10')
+    fav_context  ={'context': 'notebook', 'font_scale': 1.2}
     plt.style.use(fav_style)
     sns.set_context(**fav_context)
-    plt.rcParams['savefig.transparent'] = False
+    
+    plt.rcParams['savefig.dpi'] = 300
     plt.rcParams['savefig.bbox'] = 'tight'
+    plt.rcParams['savefig.transparent'] = False
+    plt.rcParams['savefig.facecolor'] = 'white'
+    
 
 
 ## RESTART KERNEL AND RUN ONLY CELLS BELOW TO TEST
 
+- Final Step: Restart you Kernel to reset your notebook's settings. 
+- DO NOT RUN ANY CODE ABOVE HERE, just run the following cell to use your saved settings.
+- Then run the final cells to show the final result.
+
+Any notebook that is stored in the same folder as your my_style.py file can run the following to use the settings:
 
 ```python
-from lp_styles import *
+from my_style import *
 ```
 
 
 ```python
-## TESTING VIZ PARAMS [temp]
+from my_style import *
+```
+
+
+```python
+## TESTING VIZ PARAMS 
 import pandas as pd
 ## Load in the student performance - math dataset & display the head and info
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6xDKNpWkBBdhZSqepy48bXo55QnRv1Xy6tXTKYzZLMPjZozMfYhHQjAcC8uj9hQ/pub?output=xlsx"
@@ -846,66 +983,38 @@ def test_plot(title='Testing Contexts',x1='Fjob',rotate=False):
     
 
 fig, axes = test_plot(x1='LongFjob',rotate=True)
-fig
+fig.savefig('images/final_test_plot.png')
 ```
 
 
-
-
     
-![png](images/output_52_0.png)
+![png](images/readme/output_60_0.png)
     
 
 
 
+<div style='background-color:black'>
+    <p style='color:white'> Testing Inserting Image in a Dark Background </p>
 
-    
-![png](images/output_52_1.png)
-    
+ <img src="images/final_test_plot.png">
+    <p style='color:white'> Testing Inserting Image in a Dark Background </p>
+</div>
 
 
 
 ```python
-fig.savefig('test_plot_t.png')#,transparent=True)
-```
-
-- Testing Image: Transparent=True
-<div style='background-color:black'> <img src="test_plot_t.png">Testing</div>
-
-
-
-```python
-fig.savefig('test_plot_not_t.png',transparent=False)
-```
-
-- Testing Image: Transparent=False
-<div style='background-color:black'> <img src="test_plot_not_t.png">Testing</div>
-
-
-
-```python
-fig.savefig('test_plot_final.png')
-```
-
-
-```python
-plt.imshow(plt.imread('test_plot_final.png'))
+plt.imshow(plt.imread('images/final_test_plot.png'))
 ```
 
 
 
 
-    <matplotlib.image.AxesImage at 0x127c52160>
+    <matplotlib.image.AxesImage at 0x1563fd880>
 
 
 
 
     
-![png](images/output_58_1.png)
+![png](images/readme/output_62_1.png)
     
 
-
-
-```python
-
-```
